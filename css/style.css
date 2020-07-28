@@ -1,0 +1,524 @@
+* {
+    box-sizing: border-box;
+  }
+/* Start Main Rulez */
+body {
+    width: 100%;
+   /* display: flex; */
+    margin:auto;
+    
+
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.clearfix {clear:both;}
+/* End Main Rulez */
+
+/* Start Head */
+
+.header .slider {
+    background-color: #fff;
+    
+    background-image: url('../images/1170X780.jpeg');
+    -webkit-background-size: cover; /*CSS3*/
+    -moz-background-size: cover; /*CSS3*/
+    -o-background-size: cover; /*CSS3*/
+    height: 600px;
+    
+}
+.header .slider .intro {
+    
+    padding-top: 200px;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+.header .slider .intro h2 {
+    background-color: rgb(164, 164, 164,55%);
+    color: #fff;
+    margin:0px auto ;
+    font-size: 50px;
+    width:600px;
+    border-top:4px solid #fff ;
+    border-bottom: 4px solid #fff ;
+}
+.header .slider .intro button {
+    background-color: rgb(164, 164, 164,55%);
+    margin-top: 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+    padding:10px 20px;
+}
+
+.header .navbar {
+    background-color: rgb(37, 47, 49,100%);
+    color: #fff;
+    overflow: hidden;
+    
+    top:0;
+    width: 100%;
+    height: 11%;
+    font-weight: normal;
+    
+}
+.header .navbar h2 {float:left;}
+.header .navbar h2 span {
+    color: #AF4034;
+    
+    
+}
+.header .navbar ul {
+    list-style:none;
+    padding-left: 0px;
+    overflow:hidden;
+    float: right;   
+}
+.header .navbar ul li {float:left;padding: 10px;}
+.header .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+    color:#AF4034 ;
+}
+
+/* End Head */
+
+/* Start Features */
+.features {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+    
+}
+.features .feat {
+    float: left;
+    width: 31.33333%;
+    height: 150px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.features .feat h2 { color: #444; }
+.features .feat p { 
+    line-height: 1.7;
+    text-align: justify;
+    color: #888;
+    padding: 0 20px 0 0;
+}
+/* End Features */
+/* Start about me */
+.about_me {
+    background-color: #f2f2f1;
+    overflow: hidden;
+}
+.about_me .image {
+    float: left;
+    width: 40%;
+}
+.about_me .image img {
+     width: 100%;
+     margin-top: 45.5px;
+}
+
+.about_me .info {
+    float:left;
+    width: 60%;
+    
+} 
+
+.about_me .info h2 { 
+    margin: 40px 0 20px 40px ;
+    color:#555;
+}
+.about_me .info > p  {
+     margin: 0 0 10px 40px ;
+
+}
+.about_me .info > p:last-of-type {
+    margin-top: 30px;
+}
+.about_me .info p {
+    color: #666;
+    line-height: 1.7 ;
+}
+.about_me .info .hobbies {
+    overflow: hidden;
+    margin: 20px 0 0 40px;
+}
+.about_me .info .hobbies p {
+    padding: 10px;
+}
+.about_me .info .hobbies h3 {
+    color: #555;
+}
+.about_me .info .hobbies .content {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+.about_me .info .hobbies .content .icon {
+    float: left;
+    width: 12%;
+    margin: 53px 6px 0 0;
+}
+.about_me .info .hobbies .content .icon img {
+    max-width: 100%;
+}
+.about_me .info .hobbies .content .text {
+    float: left;
+    width: 86%;
+}
+
+
+/*End about me*/
+/*Start My Skills*/
+    .my_skills {
+        padding-top: 30px;
+        padding-bottom: 50PX;
+        overflow: hidden;
+        
+    }
+    .my_skills .skills,
+    .my_skills .progress {
+        width: 50%;
+        float: left;
+    }
+    .my_skills .skills h2 { 
+        margin: 20px 0 20px 40px ;
+        color:#555;
+        
+    }
+    .my_skills .skills p  {
+         margin: 0 0 10px 40px ;
+         color: #666;
+         line-height: 1.7 ;
+         
+    }
+    .my_skills .skills  p:last-of-type {
+        margin-top: 30px;
+    }
+    .my_skills .skills button {
+        margin-left:40px;
+        margin-top: 45px;
+    }
+        /*Start First Technique*/
+    
+    .progress .technique-first {margin-left: 50px;}
+    .progress .technique-first h3 {
+        color: #555;
+    }
+    .progress .technique-first div {
+        background-color: #F2F2F2;
+        height: 25px;
+        width: 50%;
+    }
+    .progress .technique-first div span {
+        background-color: #AF4034;
+        width: 80%;
+        height: 25px;
+        display: block;
+        color: #fff;
+        text-align: right;
+        
+    }
+    /* End First Technique*/
+    /* Start Second Technique*/
+    .progress .technique-second {margin-left: 50px;}
+    .progress .technique-second h3 {
+        color: #555;
+    }
+    .progress .technique-second div {
+        background-color: #F2F2F2;
+        height: 25px;
+        width: 50%;
+    }
+    .progress .technique-second div span {
+        background-color: #AF4034;
+        width: 75%;
+        height: 25px;
+        display: block;
+        color: #fff;
+        text-align: right;
+        
+    }
+    /* End Second Technique*/
+    /* Start Third Technique*/
+    .progress .technique-third {margin-left: 50px;}
+    .progress .technique-third h3 {
+        color: #555;
+    }
+    .progress .technique-third div {
+        background-color: #F2F2F2;
+        height: 25px;
+        width: 50%;
+    }
+    .progress .technique-third div span {
+        background-color: #AF4034;
+        width: 90%;
+        height: 25px;
+        display: block;
+        color: #fff;
+        text-align: right;
+        
+    }
+    /* End Third Technique*/
+    /* Start fourth Technique*/
+    .progress .technique-fourth {margin-left: 50px;}
+    .progress .technique-fourth h3 {
+        color: #555;
+    }
+    .progress .technique-fourth div {
+        background-color: #F2F2F2;
+        height: 25px;
+        width: 50%;
+    }
+    .progress .technique-fourth div span {
+        background-color: #AF4034;
+        width: 55%;
+        height: 25px;
+        display: block;
+        color: #fff;
+        text-align: right;
+        
+    }
+    /* End fourth Technique*/
+    
+/*End My Skills*/
+/*Start Resume*/
+.resume {
+    background-color: #f2f2f2;
+    padding-top:50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.resume h2 {
+    color: #555;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.resume p {
+    line-height: 1.7;
+    color: #666;
+    padding: 0 40px;
+}
+
+.resume button {
+    margin-left:40px;
+    margin-top: 25px;
+}
+
+
+/*End Resume*/
+/*Start My Education*/
+.my_education {
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.my_education .main,
+.my_education .exp {
+    width: 45%;
+    float: left;
+    padding-right:5%;
+    
+}
+.my_education .main h2 { 
+    margin: 20px 0 20px 40px ;
+    color:#555;
+    text-transform: uppercase;
+    
+}
+.my_education .main p  {
+     margin: 0 0 10px 40px ;
+     color: #666;
+     line-height: 1.7 ;
+     
+}
+.my_education .main  p:last-of-type {
+    margin-top: 30px;
+}
+.my_education .main .exp { 
+    float: left;
+}
+
+.exp hr {
+    margin: 20px 0 35px 0;
+}
+.exp button {
+    color: #fff;
+    background-color: #AF4034;
+    border: 0;
+    height: 30px;
+}
+.exp h3 {
+    color: #555;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 67px;
+}
+.exp p {
+    
+     color: #666;
+     line-height: 1.7 ;
+     display: block;
+}
+/*End My Skills*/
+/*Start Testimonials*/
+.testimonials {
+    background-color: #f2f2f2;
+    padding-top:50px;
+    padding-bottom: 70px;
+    text-align: center;
+
+}
+.testimonials q {
+    line-height: 1.7;
+    color: #888;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.testimonials h3 {
+    color: #666;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.testimonials ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    margin-top:10px;
+}
+.testimonials ul li {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #AF4034;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.testimonials ul li.active,
+.testimonials ul li:hover { background-color: #AF4034;}
+
+
+/*End Testimonials*/
+/*Start protofilo*/
+.protofilo {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.protofilo h2 {
+    color: #777;
+}
+.protofilo p {
+    color: #666;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+
+.protofilo .our-work  {
+    overflow: hidden;
+}
+.protofilo .our-work > div {
+    float: left;
+    width:33.333333%;
+    margin-bottom: 18px;
+
+}
+.protofilo .our-work > div img {
+    width:92%;
+    margin: 10px;
+    padding:3px;
+    background-color: #fff;
+    border: 1px solid #CCC;
+    box-shadow: 10px 10px 12px #CCC;
+}
+/*start contact*/
+.contact {
+    background-color: #252e30;
+    overflow: hidden;
+    padding-top:20px;
+    padding-bottom: 70px;
+}
+.contact .info {
+    width:50%;
+    margin-right: 5%;
+    float: left;
+}
+.contact h2 {color:#fff;margin-left:40px;}
+.contact p {color:#919191;margin-left:40px;line-height: 1.7;}
+.contact .info,.contact .form { width:50%; float: left; }
+.contact .info strong { color: #CCC;}
+
+/*end contact*/
+/*Start Footer*/
+.footer {
+    background-color: #191f21;
+    color: #919191;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.contact .form { 
+    width: 45%;
+    float: left;
+}
+.contact .form label {
+    display: block;
+    color: #D1D6DA;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.form  input {
+    background-color:#919191;
+    border:0;
+    height: 35px;
+    width: 100%;
+}
+.form-note  {width: 45%;float: left;}
+.form-note label {display: block;color: #D1D6DA;margin-bottom: 10px;padding-top: 10px;}
+.form-note  input {
+    background-color:#919191;
+    border:0;
+    height: 215px;
+    width: 100%;
+}
+.contact button {
+    color: #D1D6DA;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color:#191e22;
+    border: 0;
+    margin-top: 20px;
+    height: 40px;
+    width: 140px;
+}
+.footer { font-size: 17px;}
+.footer span:hover {
+    color: white;
+}
+/*End Footer*/
+/*Start My fremwork*/
+.my_botton {
+    background:none;
+    padding:10px 20px;
+    color: #AF4034 ;
+    border:3px solid #AF4034;
+}
+/*End My fremwork*/
